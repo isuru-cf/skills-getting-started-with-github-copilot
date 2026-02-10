@@ -63,6 +63,43 @@ section h3 {
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(26, 35, 126, 0.08);
+}
+
+.participants-section {
+  margin-top: 18px;
+  padding: 12px;
+  background-color: #e3f2fd;
+  border-radius: 4px;
+  border: 1px solid #bbdefb;
+}
+
+.participants-section strong {
+  color: #1976d2;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.participants-list {
+  list-style-type: disc;
+  margin-left: 22px;
+  margin-bottom: 0;
+  color: #333;
+  font-size: 15px;
+}
+
+.participants-list li {
+  margin-bottom: 4px;
+  padding: 2px 0;
+  border-bottom: 1px dotted #90caf9;
+}
+
+.no-participants {
+  color: #757575;
+  font-style: italic;
+  margin: 0;
+}
 }
 
 .activity-card h4 {
